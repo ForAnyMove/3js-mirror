@@ -154,7 +154,7 @@ let model = null;
 gltfLoader.load('./source/gift.gltf', (gltf) => {
 	model = gltf.scene;
 	model.scale.set(0.5, 0.5, 0.5);
-	scene.add(model);
+	scene.add(model); 
 });
 
 const createTowerBody = () => {
